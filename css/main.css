@@ -144,3 +144,29 @@ nav a {
 }
 
 /*---Fin seccionConduce---*/
+
+/*----Inicio seccionTarifas---*/
+
+#contenedorForm{
+    padding: 4%;
+    padding-bottom: 10%;
+    
+}
+.formTarifas{
+    padding-top: 10%;
+    
+}
+
+.formTarifas input{
+    background-color: #e0a913;
+}
+.formTarifas button{
+    font-size: 1vw; 
+}
+
+#contenedorMapa{
+    padding: 6%;
+}
+
+
+
