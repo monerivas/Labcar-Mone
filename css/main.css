@@ -1,0 +1,91 @@
+/*-----Estilos generales-----*/
+
+body {
+    background-color: #e0a913;
+    padding: 0;
+    margin: 0;
+    width: 100%
+}
+
+.textoNegro {
+    color: black;
+}
+/*----Fin Estilos generales----*/
+
+
+
+
+
+/*----Inicio Header-----*/
+/*
+header{
+    background-image:url(../img/taxi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 660px;    
+}
+*/
+
+nav a {
+    color: black;
+}
+/*----Fin Header-----*/
+
+
+
+
+/*----Inicio seccionViaja-----*/
+
+#seccionViaja {
+    background-image: url(../img/taxi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 800px;
+    margin-top: -5;
+    margin-left: 0;
+}
+
+
+/*---formViaja----*/
+
+#contenedorFormViaja{
+    margin-top: 20%;
+}
+
+
+
+#formViaja {
+    color: white;
+    background-color: #e0a913;
+}
+
+#formViaja button {
+    color: black;
+    border-radius: 4px;
+}
+
+.rayita {
+    margin-top: 5%;
+    color: #fff;
+    max-width: 400px;
+    text-align: center;
+}
+
+.rayita::after {
+    content: "O bien";
+    display: inline-block;
+    position: relative;
+    top: .1em;
+    font-size: 1em;
+    padding: 0 4em;
+    background: #e0a913;
+    top: -10px;
+    color: #fff;
+}
+/*---formViaja----*/
+
+
+/*----Fin seccionViaja-----*/
