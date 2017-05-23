@@ -4,35 +4,26 @@ body {
     background-color: #e0a913;
     padding: 0;
     margin: 0;
-    width: 100%
+    width: 100%;
+    color: white;
 }
 
 .textoNegro {
     color: black;
 }
+
+
 /*----Fin Estilos generales----*/
 
 
-
-
-
 /*----Inicio Header-----*/
-/*
-header{
-    background-image:url(../img/taxi.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 660px;    
-}
-*/
 
 nav a {
     color: black;
 }
+
+
 /*----Fin Header-----*/
-
-
 
 
 /*----Inicio seccionViaja-----*/
@@ -43,23 +34,23 @@ nav a {
     background-repeat: no-repeat;
     background-position: bottom;
     width: 100%;
-    height: 800px;
-    margin-top: -5;
+    height: 900px;
+    margin-top: -5%;
     margin-left: 0;
 }
 
 
 /*---formViaja----*/
 
-#contenedorFormViaja{
+#contenedorFormViaja {
     margin-top: 20%;
 }
-
-
 
 #formViaja {
     color: white;
     background-color: #e0a913;
+    padding: 10%;
+    width: 100%;
 }
 
 #formViaja button {
@@ -85,7 +76,71 @@ nav a {
     top: -10px;
     color: #fff;
 }
+
+
 /*---formViaja----*/
 
 
 /*----Fin seccionViaja-----*/
+
+
+/*---Inicio seccionApp---*/
+
+#seccionApp {
+    color: white;
+}
+
+.bordeApp {
+    margin: 3%;
+    margin-left: 0;
+    border: white 3px solid;
+    padding: 3%;
+}
+
+.contenedorImgIphone img {
+    margin-left: 20%;
+}
+
+.contenedorP {
+    margin-left: 5%;
+    padding-left: 8%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.contenedorP p {
+    margin-top: 15%;
+    font-size: 1.2vw;
+}
+
+
+/*---Fin seccionApp---*/
+
+
+/*---Inicio seccionConduce---*/
+
+#seccionConduce {
+    background-image: url(../img/conduce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 1000px;
+    margin-top: %;
+    margin-left: 0;
+}
+
+.cuadroTransparente{
+    background-color:rgba(18, 15, 15, 0.6);
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 5%;
+    font-size: 1.2vw;
+}
+.cuadroTransparente button{
+    background: #e0a913;
+    color: white;
+    
+}
+
+/*---Fin seccionConduce---*/
